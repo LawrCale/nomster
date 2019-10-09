@@ -131,7 +131,7 @@
   <div class="col-12">
     <blockquote>
       <% if photo.picture.present? %>
-      <%= image_tag 'taco1.jpg', class: 'img-fluid' %>
+      <%= photo.picture.url %>
       <% end %>
         <%= photo.caption %>
     </blockquote>
