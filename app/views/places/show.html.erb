@@ -74,7 +74,7 @@
     </div>
   </div>
 </div>
-<div class="col-10 offset-1">
+<div class="col-12 offset-1">
 <h1 class="float-left">Comments</h1>
 <!-- Button trigger modal -->
 <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
@@ -126,9 +126,9 @@
 
 
 <div class="clear"></div>
-<div class="row">
+<div class="row"><br />
 <% @place.photos.each do |photo| %>
-  <div class="col-12">
+  <div class="col-12 offset-1">
     
       <div class="img">
         <%= image_tag photo.picture_url %>
