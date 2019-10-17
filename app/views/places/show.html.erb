@@ -129,14 +129,17 @@
 <div class="row"><br />
 <% @place.photos.each do |photo| %>
   <div class="col-12 offset-1">
-    
+    <div class="polaroid">
       <div class="img">
         <%= image_tag photo.picture_url %>
       </div>
+     <div class="container">     
     <blockquote>
-        <%= photo.caption %>
-    </blockquote>
+      <small><i><%= photo.caption %></i></small>
+    </blockquote>  
   </div>
+  </div>
+</div>
   <% end %>
 </div>
 
