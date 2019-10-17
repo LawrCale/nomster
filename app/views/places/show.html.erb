@@ -130,7 +130,7 @@
 <% @place.photos.each do |photo| %>
   <div class="col-12">
     <blockquote>
-      
+        <%= image_tag photo.picture_url %>
         <%= photo.caption %>
     </blockquote>
   </div>
