@@ -69,7 +69,7 @@ gem "font-awesome-rails"
 gem 'devise'
 gem "geocoder"
 gem "figaro"
-gem 'carrierwave', '~> 1.0'
+gem 'carrierwave', '~> 1.3'
 gem 'mini_magick',  '4.5.1'
 gem 'fog-aws'
 gem 'kaminari'
